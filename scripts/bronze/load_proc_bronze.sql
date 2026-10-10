@@ -31,7 +31,7 @@ BEGIN
             TABLOCK
         );
 
-        TRUNCATE TABLE bronze.crm_cust_info;
+        TRUNCATE TABLE bronze.crm_prd_info;
 
         BULK INSERT bronze.crm_prd_info
         FROM 'C:\Users\imadc\Downloads\sql-data-warehouse-project\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
