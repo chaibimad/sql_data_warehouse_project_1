@@ -20,7 +20,9 @@ BEGIN
     BEGIN TRY
         PRINT '======== Loading Bronze Layer ========';
         print '>>Loading CRM Tables';
-
+        -- ==============================================
+        -- loads data into 'crm_cust_info'
+        -- ==============================================
         TRUNCATE TABLE bronze.crm_cust_info;
 
         BULK INSERT bronze.crm_cust_info
@@ -30,7 +32,9 @@ BEGIN
             FIELDTERMINATOR=',',
             TABLOCK
         );
-
+        -- ==============================================
+        -- loads data into 'crm_prd_info'
+        -- ==============================================
         TRUNCATE TABLE bronze.crm_prd_info;
 
         BULK INSERT bronze.crm_prd_info
@@ -40,8 +44,9 @@ BEGIN
             FIELDTERMINATOR=',',
             TABLOCK
         );
-
-
+        -- ==============================================
+        -- loads data into 'sales_details'
+        -- ==============================================
         TRUNCATE TABLE bronze.crm_sales_details;
 
         BULK INSERT bronze.crm_sales_details
@@ -52,7 +57,9 @@ BEGIN
             TABLOCK
         );
         print '>>Loading ERP Tables';
-
+        -- ==============================================
+        -- loads data into 'erp_cust_az12'
+        -- ==============================================
         TRUNCATE TABLE bronze.erp_cust_az12;
 
         BULK INSERT bronze.erp_cust_az12
@@ -62,8 +69,9 @@ BEGIN
             FIELDTERMINATOR=',',
             TABLOCK
         );
-
-
+        -- ==============================================
+        -- loads data into 'erp_loc_a101'
+        -- ==============================================
         TRUNCATE TABLE bronze.erp_loc_a101;
 
         BULK INSERT bronze.erp_loc_a101
@@ -73,7 +81,9 @@ BEGIN
             FIELDTERMINATOR=',',
             TABLOCK
         );
-
+        -- ==============================================
+        -- loads data into 'erp_px_cat_g1v2'
+        -- ==============================================
         TRUNCATE TABLE bronze.erp_px_cat_g1v2;
 
         BULK INSERT bronze.erp_px_cat_g1v2
