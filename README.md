@@ -6,3 +6,8 @@ Building a modern data warehouse with **SQL Server**, using **ETL processes** an
 
 ![Data Flow Diagram](docs/data_flow_diagram.drawio.png)
 
+## 👤 Author
+
+**chaibimad**
+GitHub: [@chaibimad](https://github.com/chaibimad)
+
