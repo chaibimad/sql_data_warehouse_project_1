@@ -5,6 +5,7 @@ Building a modern data warehouse with **SQL Server**, using **ETL processes** an
 ## 🏗️ Architecture
 
 The data warehouse follows the Medallion Architecture with three layers:
+![Data Architecture](docs/Architecture.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files into the SQL Server database.
 2. **Silver Layer**: Handles data cleansing, standardization, and normalization to prepare the data for analysis.
