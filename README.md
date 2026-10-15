@@ -35,10 +35,9 @@ The data warehouse follows the Medallion Architecture with three layers:
 ## 🔄 Data Flow
 
 ![Data Flow Diagram](docs/data_flow_diagram.drawio.png)
-1. **Fact Tables:** Fact tables are the heart of a data warehouse. They contain quantitative data, often referred to as measures or metrics, and are the focus of most data analysis.
-2.**Dimension Tables:** Dimension tables, offer context to the data stored in fact tables. They provide descriptive information that helps users understand
+1. **Fact Tables**: Fact tables are the heart of a data warehouse. They contain quantitative data, often referred to as measures or metrics, and are the focus of most data analysis.
+2. **Dimension Tables**:  Dimension tables, offer context to the data stored in fact tables. They provide descriptive information that helps users understand
 the “who,” “where,” and “when” aspects of the data.
-
 ## 📖 Project Overview
 
 This project involves:
