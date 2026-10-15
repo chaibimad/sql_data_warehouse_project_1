@@ -9,5 +9,6 @@ Building a modern data warehouse with **SQL Server**, using **ETL processes** an
 ## 👤 Author
 
 **chaibimad**
-GitHub: [@chaibimad](https://github.com/chaibimad)
 
+- GitHub: [@chaibimad](https://github.com/chaibimad)
+- LinkedIn: [imad chaib](https://www.linkedin.com/in/imadchaib/)
