@@ -23,9 +23,11 @@ This project involves:
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-## 👤 Author
+## 🌟 About Me
 
-**chaibimad**
+Hi, I'm **imad**, a Master's student in  **Digital Sciences and Artificial Intelligence** . I'm passionate about data and data engineering, and I enjoy building pipelines, modeling data, and turning raw data into useful insights.
+
+This project is part of my learning journey in data warehousing with SQL Server, ETL, and data modeling.
 
 - GitHub: [@chaibimad](https://github.com/chaibimad)
-- LinkedIn: [imad chaib](https://www.linkedin.com/in/imadchaib/)
+- LinkedIn: [ imad ](https://www.linkedin.com/in/imadchaib/)
