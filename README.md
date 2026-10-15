@@ -2,6 +2,27 @@
 Welcome to the Data Warehouse Project repository! 🚀
 # SQL Data Warehouse Project
 Building a modern data warehouse with **SQL Server**, using **ETL processes** and **data modeling** to turn raw source data into analytics-ready tables.
+## 📂 Repository Structure
+
+```
+sql_data_warehouse_project_1/
+│
+├── datasets/                 # Raw source data (CRM and ERP CSV files)
+│   ├── source_crm/           # Customers, products, sales details
+│   └── source_erp/           # Customer birthdates and gender, locations, product categories
+│
+├── docs/                     # Architecture, data flow, data model, naming conventions
+│
+├── scripts/                  # SQL scripts for the ETL process
+│   ├── init_database.sql     # Creates the database and the three schemas
+│   ├── bronze/               # Loads the raw files as they are
+│   ├── silver/               # Cleans and standardizes the data
+│   └── gold/                 # Star schema for analytics
+│
+├── tests/                    # Quality checks for the Silver and Gold layers
+│
+└── README.md                 # Project overview
+```
 ## 🏗️ Architecture
 
 The data warehouse follows the Medallion Architecture with three layers:
